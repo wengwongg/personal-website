@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Fira_Code, Rakkas } from "next/font/google";
 import "./globals.css";
+import Sidebar from "../../components/Sidebar";
+import Content from "../../components/Content";
 
 export const firaCode = Fira_Code({
   weight: ["600", "400", "300"],
@@ -27,11 +29,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="h-full w-full">
       <body
-        className={`bg-background ${firaCode.variable} ${rakkas.variable} fira-code`}
+        className={`${firaCode.variable} ${rakkas.variable} fira-code min-h-screen min-w-screen flex justify-center bg-secondary`}
       >
-        {children}
+        <div className="inline-flex w-auto mt-14">
+          <Sidebar />
+          <Content>{children}</Content>
+        </div>
       </body>
     </html>
   );
