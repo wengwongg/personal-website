@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Fira_Code } from "next/font/google";
+import { Fira_Code, Rakkas } from "next/font/google";
 import "./globals.css";
 
 export const firaCode = Fira_Code({
@@ -7,6 +7,13 @@ export const firaCode = Fira_Code({
   display: "swap",
   subsets: ["latin"],
   variable: "--font-fira-code",
+});
+
+export const rakkas = Rakkas({
+  weight: ["400"],
+  display: "swap",
+  subsets: ["latin"],
+  variable: "--font-rakkas",
 });
 
 export const metadata: Metadata = {
@@ -21,7 +28,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`bg-background ${firaCode.variable} fira-code`}>
+      <body
+        className={`bg-background ${firaCode.variable} ${rakkas.variable} fira-code`}
+      >
         {children}
       </body>
     </html>

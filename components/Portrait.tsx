@@ -8,7 +8,7 @@ interface PictureProps {
 export default function Portrait({ src, alt }: PictureProps): JSX.Element {
   return (
     <Image
-      className="m-5 rounded-lg outline outline-8 outline-white shadow-lg rotate-2"
+      className="rounded-lg outline outline-8 outline-white shadow-lg rotate-2 mb-4 z-0"
       src={src}
       alt={alt}
       width={125}

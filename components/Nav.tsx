@@ -3,7 +3,7 @@ import NavLink from "./NavLink";
 export default function Nav() {
   return (
     <nav>
-      <ul className="list-none m-5">
+      <ul className="list-none">
         <div className="mb-5 flex flex-col items-start">
           <NavLink key="home" href="/" text="home" />
           <NavLink key="blog" href="" text="blog" />

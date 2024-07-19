@@ -6,10 +6,14 @@
   --primary: #357960;
   --primary-light: #42cf71;
   --background: #fff9eb;
-  --background-dark: #aca79d;
+  --background-dark: #817d76;
   --accent: #ffb35a;
 }
 
 .fira-code {
   font-family: var(--font-fira-code);
+}
+
+.rakkas {
+  font-family: var(--font-rakkas);
 }
