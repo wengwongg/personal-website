@@ -6,7 +6,7 @@ export default function Nav() {
       <ul className="list-none">
         <div className="mb-5 flex flex-col items-start">
           <NavLink key="home" href="/" text="home" />
-          <NavLink key="blog" href="" text="blog" />
+          <NavLink key="blog" href="/blog" text="blog" />
         </div>
 
         <div className="flex flex-col items-start">

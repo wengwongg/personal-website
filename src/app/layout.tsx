@@ -33,7 +33,7 @@ export default function RootLayout({
       <body
         className={`${firaCode.variable} ${rakkas.variable} fira-code min-h-screen min-w-screen flex justify-center bg-secondary`}
       >
-        <div className="inline-flex w-auto mt-14">
+        <div className="inline-flex w-auto my-14 gap-10">
           <Sidebar />
           <Content>{children}</Content>
         </div>
