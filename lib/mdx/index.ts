@@ -7,6 +7,7 @@ import { JSXElementConstructor, ReactElement } from "react";
 interface Frontmatter {
   title: string;
   date: string;
+  time: string;
   star: boolean;
 }
 
@@ -28,7 +29,7 @@ export const getPostBySlug = async (slug: string): Promise<Post> => {
 
   return {
     title: frontmatter.title,
-    date: new Date(frontmatter.date),
+    date: new Date(`${frontmatter.date}T${frontmatter.time}`),
     star: frontmatter.star,
     slug: realSlug,
     content,

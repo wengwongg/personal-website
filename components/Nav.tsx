@@ -11,9 +11,21 @@ export default function Nav() {
 
         <div className="flex flex-col items-start">
           <NavLink key="resume" href="" text="résumé" isMisc={true} />
-          <NavLink key="github" href="" text="github" isMisc={true} />
-          <NavLink key="linkedin" href="" text="linkedin" isMisc={true} />
-          <NavLink key="contact" href="" text="contact" isMisc={true} />
+          <NavLink
+            key="github"
+            href="https://github.com/wengwongg"
+            text="github"
+            isMisc={true}
+            newTab={true}
+          />
+          <NavLink
+            key="linkedin"
+            href="https://www.linkedin.com/in/wengwonghum/"
+            text="linkedin"
+            isMisc={true}
+            newTab={true}
+          />
+          <NavLink key="contact" href="/contact" text="contact" isMisc={true} />
         </div>
       </ul>
     </nav>

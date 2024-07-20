@@ -1,9 +1,7 @@
 import { format } from "date-fns";
 import Link from "next/link";
 import { sortPostsIntoFinalVersion } from "../../../lib/utils";
-import { FinalSortedPosts } from "../../../lib/definitions";
 import { getAllPosts } from "../../../lib/mdx";
-import { Post } from "../../../lib/definitions";
 
 // posts should be sorted beforehand.
 export default async function Blog() {
@@ -32,7 +30,7 @@ export default async function Blog() {
                     {post.star ? "⭐" : " "}
                   </span>
                   <Link
-                    href=""
+                    href={`/blog/${post.slug}`}
                     className="underline decoration-zinc-300 underline-offset-[5px] transition-all hover:underline-offset-[6px]"
                   >
                     {post.title}
