@@ -1,3 +1,6 @@
+"use client";
+
+import Modal from "./Modal";
 import NavLink from "./NavLink";
 
 export default function Nav() {
@@ -10,7 +13,40 @@ export default function Nav() {
         </div>
 
         <div className="flex flex-col items-start">
-          <NavLink key="resume" href="" text="résumé" isMisc={true} />
+          <NavLink
+            key="resume"
+            href=""
+            text="résumé"
+            isMisc={true}
+            onClick={() =>
+              (
+                document.getElementById(
+                  "download_confirmation_modal"
+                ) as HTMLDialogElement
+              ).showModal()
+            }
+          />
+
+          <Modal
+            id="download_confirmation_modal"
+            heading="Heads up!"
+            message="You are going to download my résumé. Click 'Download' to proceed."
+            additionalButtons={
+              <button
+                onClick={() =>
+                  (
+                    document.getElementById(
+                      "download_confirmation_modal"
+                    ) as HTMLDialogElement
+                  ).close()
+                }
+              >
+                <a className="btn" href="/wengwonghumresume.pdf" download>
+                  Download
+                </a>
+              </button>
+            }
+          />
           <NavLink
             key="github"
             href="https://github.com/wengwongg"

@@ -5,6 +5,7 @@ interface NavLinkProps {
   text: string;
   isMisc?: boolean;
   newTab?: boolean;
+  onClick?: () => void;
 }
 
 export default function NavLink({
@@ -12,13 +13,15 @@ export default function NavLink({
   text,
   isMisc = false,
   newTab = false,
+  onClick,
 }: NavLinkProps): JSX.Element {
   return (
-    <li className="text-base transition-all hover:text-[1.063rem] inline-block">
+    <li className="text-base transition-all hover:text-[1.063rem] inline-block text-slate-900">
       <Link
         className={`${isMisc && "text-secondary-dark"}`}
         href={href}
         target={newTab ? "_blank" : "_self"}
+        onClick={onClick}
       >
         {text}
       </Link>

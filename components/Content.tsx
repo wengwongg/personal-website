@@ -4,7 +4,7 @@ interface ContentProps {
 
 export default function Content({ children }: ContentProps) {
   return (
-    <div className="body w-[30rem] font-light leading-relaxed text-sm">
+    <div className="text-slate-900 body w-[30rem] font-light leading-relaxed text-sm">
       {children}
     </div>
   );
