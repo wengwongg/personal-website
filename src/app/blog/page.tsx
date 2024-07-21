@@ -1,7 +1,7 @@
 import { format } from "date-fns";
-import Link from "next/link";
 import { sortPostsIntoFinalVersion } from "../../../lib/utils";
 import { getAllPosts } from "../../../lib/mdx";
+import UnderlinedLink from "../../../components/UnderlinedLink";
 
 // posts should be sorted beforehand.
 export default async function Blog() {
@@ -29,12 +29,9 @@ export default async function Blog() {
                   <span className="min-w-7 inline-block">
                     {post.star ? "⭐" : " "}
                   </span>
-                  <Link
-                    href={`/blog/${post.slug}`}
-                    className="underline decoration-zinc-300 underline-offset-[5px] transition-all hover:underline-offset-[6px]"
-                  >
+                  <UnderlinedLink href={`/blog/${post.slug}`}>
                     {post.title}
-                  </Link>
+                  </UnderlinedLink>
                 </span>
                 <time>{format(post.date, "dd")}</time>
               </div>
