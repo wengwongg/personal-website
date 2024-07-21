@@ -1,6 +1,6 @@
 import Body from "../../components/Content";
 import MainTextWrapper from "../../components/MainTextWrapper";
-import Sidebar from "../../components/Sidebar";
+import Sidebar from "../../components/Header";
 
 export default function Home() {
   return (

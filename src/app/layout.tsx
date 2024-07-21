@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Fira_Code, Rakkas } from "next/font/google";
 import "./globals.css";
-import Sidebar from "../../components/Sidebar";
+import Header from "../../components/Header";
 import Content from "../../components/Content";
 
 export const firaCode = Fira_Code({
@@ -21,6 +21,7 @@ export const rakkas = Rakkas({
 export const metadata: Metadata = {
   title: "george hum",
   description: "George Hum's personal website",
+  viewport: "width=device-width, initial-scale=1.0",
 };
 
 export default function RootLayout({
@@ -33,8 +34,8 @@ export default function RootLayout({
       <body
         className={`${firaCode.variable} ${rakkas.variable} fira-code min-h-screen min-w-screen flex justify-center bg-secondary`}
       >
-        <div className="inline-flex w-auto my-14 gap-10">
-          <Sidebar />
+        <div className="flex-col md:flex-row inline-flex max-w-90 w-full md:w-auto my-8 md:my-14 gap-5 md:gap-10 p-5">
+          <Header />
           <Content>{children}</Content>
         </div>
       </body>

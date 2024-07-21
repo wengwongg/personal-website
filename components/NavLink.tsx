@@ -16,7 +16,7 @@ export default function NavLink({
   onClick,
 }: NavLinkProps): JSX.Element {
   return (
-    <li className="text-base transition-all hover:text-[1.063rem] inline-block text-slate-900">
+    <li className="text-base transition-all hover:underline inline-block text-black">
       <Link
         className={`${isMisc && "text-secondary-dark"}`}
         href={href}
