@@ -8,9 +8,11 @@ export default function Home() {
       <MainTextWrapper>
         <p>
           Hey! My name is{" "}
-          <span className="rakkas text-primary text-xl">George</span> (legally
-          Weng Wong) Hum, and I'm a third-year Computer Science student at the
-          University of Sheffield. 👨‍💻
+          <span className="rakkas text-primary text-xl dark:text-primary-light">
+            George
+          </span>{" "}
+          (legally Weng Wong) Hum, and I'm a third-year Computer Science student
+          at the University of Sheffield. 👨‍💻
         </p>
         <p>
           I enjoy getting my head stuck in code, and love to design and build

@@ -5,13 +5,11 @@ export default function Contact() {
   return (
     <main>
       <MainTextWrapper>
-        <h2 className="text-2xl font-semibold mb-6">Want to contact me?</h2>
+        <h2 className="text-2xl font-bold mb-6 text-primary dark:text-primary-light">
+          Want to contact me?
+        </h2>
         <p>
-          You can reach me at <Underline>hmw.geo@gmail.com</Underline>.
-        </p>
-        <p>
-          I am also active on my Instagram! Look me up:{" "}
-          <Underline>@george_huum</Underline>.
+          You can reach me at my email <Underline>hmw.geo@gmail.com</Underline>.
         </p>
       </MainTextWrapper>
     </main>
