@@ -5,6 +5,7 @@ export interface Post {
   date: Date;
   content: ReactElement<any, string | JSXElementConstructor<any>>;
   star: boolean;
+  minutes: number;
   slug: string;
 }
 

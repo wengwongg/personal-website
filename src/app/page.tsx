@@ -7,22 +7,27 @@ export default function Home() {
     <main>
       <MainTextWrapper>
         <p>
-          Hey! My name is{" "}
+          Hey! 👋 My name is{" "}
           <span className="rakkas text-primary text-xl dark:text-primary-light">
             George
           </span>{" "}
-          (legally Weng Wong) Hum, and I'm a third-year Computer Science student
+          (legally Weng Wong) Hum, and I'm a final-year Computer Science student
           at the University of Sheffield. 👨‍💻
         </p>
         <p>
-          I enjoy getting my head stuck in code, and love to design and build
-          things from scratch. I hope to one day build and run my own SaaS, but
-          I am first looking to finish my degree, create more projects and rack
-          up experience in the industry.
+          I enjoy getting my head stuck in code. Designing and building software
+          to solve problems is my jam. Got a problem? Let me know and I'll see
+          if I can build something for you!
         </p>
         <p>
-          When I'm not at the computer, I enjoy me-time lifting in the gym and I
-          also dabble in a little bit of Brazilian Jiu-Jitsu!
+          When I'm not staring at the computer, I enjoy watching anime, playing
+          video games, lifting weights and I also dabble in a little bit of
+          Brazilian Jiu-Jitsu! 😎
+        </p>
+        <p>
+          Welcome to my very own website! This is a space for me to share my
+          work and thoughts with the world. Programming tips, personal
+          experiences, life advice. You'll find it all here.
         </p>
       </MainTextWrapper>
     </main>

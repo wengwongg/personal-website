@@ -8,7 +8,7 @@ interface BlogPostProps {
 }
 
 export default async function BlogPost({ params }: BlogPostProps) {
-  const { title, date, content } = await getPostBySlug(params.slug);
+  const { title, date, minutes, content } = await getPostBySlug(params.slug);
 
   return (
     <main>
@@ -17,7 +17,7 @@ export default async function BlogPost({ params }: BlogPostProps) {
           <h2 className="text-xl font-bold text-primary dark:text-primary-light">
             {title}
           </h2>
-          <time className="font-normal text-secondary-dark text-[#275c49]  dark:text-[#37ab5e]">
+          <time className="font-normal text-secondary-dark text-[#000]  dark:text-white">
             {date.toLocaleString("default", {
               day: "2-digit",
               month: "long",
@@ -25,6 +25,9 @@ export default async function BlogPost({ params }: BlogPostProps) {
               weekday: "long",
             })}
           </time>
+          <div className="badge  badge-ghost dark:badge-neutral ml-3">
+            ⏳ {minutes} min
+          </div>
         </div>
         <MainTextWrapper>{content}</MainTextWrapper>
       </div>

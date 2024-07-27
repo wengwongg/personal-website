@@ -10,6 +10,7 @@ interface Frontmatter {
   date: string;
   time: string;
   star: boolean;
+  minutes: number;
 }
 
 const targetDirectory = path.join(process.cwd(), "posts");
@@ -33,6 +34,7 @@ export const getPostBySlug = async (slug: string): Promise<Post> => {
       title: frontmatter.title,
       date: new Date(`${frontmatter.date}T${frontmatter.time}`),
       star: frontmatter.star,
+      minutes: frontmatter.minutes,
       slug: realSlug,
       content,
     };
