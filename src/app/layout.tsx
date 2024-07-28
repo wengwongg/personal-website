@@ -5,7 +5,7 @@ import Header from "../../components/Header";
 import Content from "../../components/Content";
 import { Providers } from "./providers";
 
-export const firaCode = Fira_Code({
+const firaCode = Fira_Code({
   weight: ["600", "400", "300"],
   display: "swap",
   subsets: ["latin"],
@@ -13,7 +13,7 @@ export const firaCode = Fira_Code({
   preload: false,
 });
 
-export const rakkas = Rakkas({
+const rakkas = Rakkas({
   weight: ["400"],
   display: "swap",
   subsets: ["latin"],
