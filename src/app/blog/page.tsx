@@ -26,8 +26,8 @@ export default async function Blog() {
             {postsForAGivenMonthAndYear.posts.map((post) => (
               <div className="flex justify-between">
                 <span className="font-normal">
-                  <span className="min-w-7 inline-block">
-                    {post.star ? "⭐" : " "}
+                  <span className="min-w-7 inline-block drop-shadow-sm">
+                    {post.star ? "✨" : " "}
                   </span>
                   <UnderlinedLink href={`/blog/${post.slug}`}>
                     {post.title}

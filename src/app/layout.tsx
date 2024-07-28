@@ -10,6 +10,7 @@ export const firaCode = Fira_Code({
   display: "swap",
   subsets: ["latin"],
   variable: "--font-fira-code",
+  preload: false,
 });
 
 export const rakkas = Rakkas({
@@ -17,6 +18,7 @@ export const rakkas = Rakkas({
   display: "swap",
   subsets: ["latin"],
   variable: "--font-rakkas",
+  preload: false,
 });
 
 export const metadata: Metadata = {
@@ -38,8 +40,8 @@ export default function RootLayout({
     <html
       lang="en"
       className="h-full w-full !scroll-smooth"
-      data-theme="forest"
       suppressHydrationWarning
+      date-theme="forest"
     >
       <body
         className={`${firaCode.variable} ${rakkas.variable} fira-code min-h-screen min-w-screen flex justify-center bg-secondary dark:bg-neutral-900`}

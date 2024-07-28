@@ -2,6 +2,7 @@ import { JSXElementConstructor, ReactElement } from "react";
 
 export interface Post {
   title: string;
+  description: string;
   date: Date;
   content: ReactElement<any, string | JSXElementConstructor<any>>;
   star: boolean;

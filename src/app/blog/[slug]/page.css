@@ -1,0 +1,29 @@
+h3 {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+hr {
+  border-color: black;
+}
+
+blockquote {
+  padding: 1rem;
+  border-inline-start-width: 6px;
+  border-color: var(--primary);
+  background-color: #e3ded1;
+  border-radius: 0.375rem;
+}
+
+img {
+  border-radius: 0.375rem;
+}
+
+.dark blockquote {
+  border-color: var(--primary-light);
+  background-color: #353535;
+}
+
+.dark hr {
+  border-color: white;
+}

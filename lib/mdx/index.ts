@@ -7,6 +7,7 @@ import { redirect } from "next/navigation";
 
 interface Frontmatter {
   title: string;
+  description: string;
   date: string;
   time: string;
   star: boolean;
@@ -32,6 +33,7 @@ export const getPostBySlug = async (slug: string): Promise<Post> => {
 
     return {
       title: frontmatter.title,
+      description: frontmatter.description,
       date: new Date(`${frontmatter.date}T${frontmatter.time}`),
       star: frontmatter.star,
       minutes: frontmatter.minutes,
