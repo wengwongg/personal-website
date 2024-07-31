@@ -10,7 +10,7 @@ export default function Contact() {
           Want to contact me?
         </h2>
         <p>
-          Find me on my LinkedIn or even shoot me an email at{" "}
+          Find me on my LinkedIn or shoot me an email at{" "}
           <Underline>hmw.geo@gmail.com</Underline>! 📧
         </p>
         <p>

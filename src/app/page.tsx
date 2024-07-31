@@ -21,13 +21,13 @@ export default function Home() {
         </p>
         <p>
           When I'm not staring at the computer, I enjoy watching anime, playing
-          video games, lifting weights and I also dabble in a little bit of
-          Brazilian Jiu-Jitsu! 😎
+          video games, lifting weights. I also dabble in a little bit of
+          Brazilian Jiu-Jitsu. 😎
         </p>
         <p>
           Welcome to my very own website! This is a space for me to share my
           work and thoughts with the world. Programming tips, personal
-          experiences, life advice. You'll find it all here.
+          experiences, life advice. You'll find it all here!
         </p>
       </MainTextWrapper>
     </main>
