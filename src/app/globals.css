@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --primary: #0149e5;
+  --primary: rgb(104, 0, 0);
   --bg-light: #ffffff;
-  --primary-dark: #6ff8ff;
+  --primary-dark: #d22323;
   /* --primary-light: #42cf71; */
   /* --secondary-dark: #817d76; */
 }
