@@ -8,7 +8,7 @@ export default function Home() {
       <MainTextWrapper>
         <p>
           Hey! 👋 My name is{" "}
-          <span className="rakkas text-primary text-xl dark:text-primary-light">
+          <span className="rakkas text-primary text-xl dark:text-primary-dark">
             George
           </span>{" "}
           (legally Weng Wong) Hum, and I'm a final-year Computer Science student
@@ -23,11 +23,12 @@ export default function Home() {
           🤪
         </p>
         <p>
-          When I'm not staring at the computer, I enjoy being active, connecting
-          with my friends, and playing football ⚽. I also had a phase of
-          Brazilian Jiu-jitsu which I would like to get back into in the near
-          future. I don't like the notion of staying still. I'm always busy
-          doing something, looking for the next challenge to have fun in. 😎
+          When I'm not staring at the computer, I enjoy being active, working
+          out, connecting with my friends, and playing football ⚽. I also had a
+          phase of Brazilian Jiu-jitsu which I would like to get back into in
+          the near future. I don't like the notion of staying still. I'm always
+          busy doing something, looking for the next challenge to have fun in.
+          😎
         </p>
         <p>
           Welcome to my very own website! 👋 This is a space for me to share my

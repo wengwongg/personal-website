@@ -10,7 +10,8 @@ const config: Config = {
     extend: {
       colors: {
         primary: "var(--primary)",
-        "primary-light": "var(--primary-light)",
+        "bg-light": "var(--bg-light)",
+        "primary-dark": "var(--primary-dark)",
         secondary: "var(--secondary)",
         "secondary-dark": "var(--secondary-dark)",
         accent: "var(--accent)",

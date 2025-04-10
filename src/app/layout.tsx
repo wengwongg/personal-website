@@ -44,7 +44,7 @@ export default function RootLayout({
       date-theme="forest"
     >
       <body
-        className={`${firaCode.variable} ${rakkas.variable} fira-code min-h-screen min-w-screen flex justify-center bg-secondary dark:bg-neutral-900`}
+        className={`${firaCode.variable} ${rakkas.variable} fira-code min-h-screen min-w-screen flex justify-center bg-bg-light dark:bg-neutral-900`}
       >
         <Providers>
           <div className="flex-col md:flex-row inline-flex max-w-90 w-full md:w-auto my-8 md:my-14 gap-5 md:gap-11 p-5">

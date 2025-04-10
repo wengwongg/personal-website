@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 :root {
-  --primary: #357960;
-  --primary-light: #42cf71;
-  --secondary: #fff9eb;
-  --secondary-dark: #817d76;
-  --accent: #ffe016;
+  --primary: #0149e5;
+  --bg-light: #ffffff;
+  --primary-dark: #6ff8ff;
+  /* --primary-light: #42cf71; */
+  /* --secondary-dark: #817d76; */
 }
 
 .fira-code {

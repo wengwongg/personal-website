@@ -18,7 +18,7 @@ export default function NavLink({
   return (
     <li className="text-base transition-all hover:underline inline-block text-black dark:text-white">
       <Link
-        className={`${isMisc && "text-secondary-dark dark:text-neutral-300"}`}
+        className={`${isMisc && "text-slate-600 dark:text-neutral-300"}`}
         href={href}
         target={newTab ? "_blank" : "_self"}
         onClick={onClick}

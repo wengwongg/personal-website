@@ -16,7 +16,7 @@ export default async function Blog() {
             key={`${postsForAGivenMonthAndYear.month}/${postsForAGivenMonthAndYear.year}`}
             className="posts-partition flex flex-col gap-3"
           >
-            <h2 className="ml-7 rakkas text-primary dark:text-primary-light text-lg">
+            <h2 className="ml-7 rakkas text-primary dark:text-primary-dark text-lg">
               {new Date(
                 postsForAGivenMonthAndYear.year,
                 postsForAGivenMonthAndYear.month - 1,

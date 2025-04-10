@@ -11,6 +11,7 @@ export default function Nav() {
         <div className="mb-5 flex flex-col items-end">
           <NavLink key="home" href="/" text="home" />
           <NavLink key="blog" href="/blog" text="blog" />
+          <NavLink key="experience" href="/experience" text="experience" />
         </div>
 
         <div className="flex flex-col items-end">
@@ -26,6 +27,14 @@ export default function Nav() {
                 ) as HTMLDialogElement
               ).showModal()
             }
+          />
+
+          <NavLink
+            key="leetcode"
+            href="https://leetcode.com/u/wengwongg/"
+            text="leetcode"
+            isMisc={true}
+            newTab={true}
           />
 
           <Modal

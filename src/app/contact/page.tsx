@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <main>
       <MainTextWrapper>
-        <h2 className="text-2xl font-bold mb-6 text-primary dark:text-primary-light">
+        <h2 className="text-2xl font-bold mb-6 text-primary dark:text-primary-dark">
           Want to contact me?
         </h2>
         <p>

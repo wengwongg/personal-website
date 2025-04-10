@@ -24,10 +24,10 @@ export default async function BlogPost({ params }: BlogPostProps) {
       <main>
         <div className="post">
           <div className="post-title-and-date mb-6">
-            <h2 className="text-xl font-bold text-primary dark:text-primary-light">
+            <h2 className="text-xl font-extrabold text-primary dark:text-primary-dark">
               {title}
             </h2>
-            <time className="font-normal text-secondary-dark text-[#000]  dark:text-white">
+            <time className="font-normal text-secondary-dark text-[#000] dark:text-white">
               {date.toLocaleString("default", {
                 day: "2-digit",
                 month: "long",
@@ -35,7 +35,7 @@ export default async function BlogPost({ params }: BlogPostProps) {
                 weekday: "long",
               })}
             </time>
-            <div className="badge badge-ghost dark:badge-neutral ml-3">
+            <div className="badge text-stone-200 dark:bg-stone-600 dark:text-stone-200 ml-3">
               ⏳ {minutes} min
             </div>
           </div>
