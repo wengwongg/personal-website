@@ -15,9 +15,8 @@ export default function UnderlinedLink({
 }: UnderlinedLinkProps): JSX.Element {
   return (
     <Link
-      className={`underline decoration-zinc-400 underline-offset-[5px] transition-all hover:underline-offset-[6px] ${
-        highlight &&
-        "text-blue-700 dark:text-blue-300 decoration-blue-800 dark:decoration-blue-400"
+      className={`hover:underline underline-offset-[5px] ${
+        highlight && "text-blue-700 decoration-blue-700"
       }`}
       href={href}
       target={newTab ? "_blank" : "_self"}

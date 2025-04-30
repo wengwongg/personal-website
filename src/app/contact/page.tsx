@@ -1,3 +1,4 @@
+import Heading from "../../../components/Heading";
 import MainTextWrapper from "../../../components/MainTextWrapper";
 import Underline from "../../../components/Underline";
 import UnderlinedLink from "../../../components/UnderlinedLink";
@@ -6,12 +7,10 @@ export default function Contact() {
   return (
     <main>
       <MainTextWrapper>
-        <h2 className="text-2xl font-bold mb-6 text-primary dark:text-primary-dark">
-          Want to contact me?
-        </h2>
+        <Heading>Want to contact me?</Heading>
         <p>
           Find me on my LinkedIn or shoot me an email at{" "}
-          <Underline>hmw.geo@gmail.com</Underline>! 📧
+          <Underline>hmw.geo@gmail.com</Underline>.
         </p>
         <p>
           I'm always checking my emails, but if you still can't get a hold of

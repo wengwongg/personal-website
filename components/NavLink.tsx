@@ -16,9 +16,9 @@ export default function NavLink({
   onClick,
 }: NavLinkProps): JSX.Element {
   return (
-    <li className="text-base transition-all hover:underline inline-block text-black dark:text-white">
+    <li className="text-base transition-all hover:underline inline-block text-slate-900">
       <Link
-        className={`${isMisc && "text-slate-600 dark:text-neutral-300"}`}
+        className={`${isMisc && "text-slate-500"}`}
         href={href}
         target={newTab ? "_blank" : "_self"}
         onClick={onClick}

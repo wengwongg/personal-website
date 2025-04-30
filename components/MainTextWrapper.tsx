@@ -3,5 +3,5 @@ export default function MainTextWrapper({
 }: {
   children: React.ReactNode;
 }) {
-  return <div className="space-y-7">{children}</div>;
+  return <div className="space-y-4">{children}</div>;
 }

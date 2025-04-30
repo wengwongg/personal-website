@@ -7,37 +7,26 @@ export default function Home() {
     <main>
       <MainTextWrapper>
         <p>
-          Hey! 👋 My name is{" "}
-          <span className="rakkas text-primary text-xl dark:text-primary-dark">
-            George
-          </span>{" "}
-          (legally Weng Wong) Hum, and I'm a final-year Computer Science student
-          at the University of Sheffield. 👨‍💻
+          Hey, my name is{" "}
+          <span className="font-bold text-slate-600 text-lg">George</span>.
         </p>
         <p>
-          I enjoy getting my head stuck in code. Designing and building software
-          to solve problems is my jam. Although I currently do not have many
-          Leetcode problems solved, this is something I'm working on. I actually
-          do enjoy the thrill of diving into unfamiliar concepts and banging my
-          head in for hours to finally arrive at the satisfaction of a solution.
-          🤪
+          I'm a learning 21 year-old trying to find my way through life. This is
+          mainly where I put my blog posts, which can contain anything from book
+          reviews to life reflections. If you're an employer, there is also
+          useful information such as my career experiences so far, a
+          downloadable résumé and the mandatory GitHub profile.
         </p>
         <p>
-          When I'm not staring at the computer, I enjoy being active, working
-          out, connecting with my friends, and playing football ⚽. I also had a
-          phase of Brazilian Jiu-jitsu which I would like to get back into in
-          the near future. I don't like the notion of staying still. I'm always
-          busy doing something, looking for the next challenge to have fun in.
-          😎
+          I don't like to give myself a label as things are constantly changing
+          in my life. Anyhow, I graduated <i>(soon)</i> in Computer Science at
+          The University of Sheffield. I love to stay active - my current go-to
+          activities are football and just working out at the gym. I'd say that
+          these are the two things that are at the core of my being. Otherwise,
+          I'm young and I love to try new things, so my interests, character and
+          even aspirations are constantly evolving.
         </p>
-        <p>
-          Welcome to my very own website! 👋 This is a space for me to share my
-          work, experiences and thoughts with the world. I've experienced a lot,
-          learned a lot and felt many different ways about different things. I'm
-          also often the person people come to for advice so I'm very wise 🧙.
-          This is also for you, mum - now you have a dedicated place to remind
-          yourself of the things that I tell you!
-        </p>
+        <p></p>
       </MainTextWrapper>
     </main>
   );
