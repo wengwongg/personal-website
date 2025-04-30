@@ -10,10 +10,6 @@
   /* --secondary-dark: #817d76; */
 }
 
-.fira-code {
-  font-family: var(--font-fira-code);
-}
-
-.rakkas {
-  font-family: var(--font-rakkas);
+.outfit {
+  font-family: var(--font-outfit);
 }

@@ -72,8 +72,6 @@ export default function Nav() {
             newTab={true}
           />
           <NavLink key="contact" href="/contact" text="contact" isMisc={true} />
-
-          <ThemeSwitch />
         </div>
       </ul>
     </nav>

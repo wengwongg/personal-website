@@ -1,24 +1,16 @@
 import type { Metadata, Viewport } from "next";
-import { Fira_Code, Rakkas } from "next/font/google";
+import { Outfit } from "next/font/google";
 import "./globals.css";
 import Header from "../../components/Header";
 import Content from "../../components/Content";
 import { Providers } from "./providers";
 
-const firaCode = Fira_Code({
-  weight: ["600", "400", "300"],
+const outfit = Outfit({
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   display: "swap",
   subsets: ["latin"],
-  variable: "--font-fira-code",
-  preload: false,
-});
-
-const rakkas = Rakkas({
-  weight: ["400"],
-  display: "swap",
-  subsets: ["latin"],
-  variable: "--font-rakkas",
-  preload: false,
+  variable: "--font-outfit",
+  preload: true,
 });
 
 export const metadata: Metadata = {
@@ -44,7 +36,7 @@ export default function RootLayout({
       date-theme="forest"
     >
       <body
-        className={`${firaCode.variable} ${rakkas.variable} fira-code min-h-screen min-w-screen flex justify-center bg-bg-light dark:bg-neutral-900`}
+        className={`min-h-screen min-w-screen flex justify-center bg-white ${outfit.variable}`}
       >
         <Providers>
           <div className="flex-col md:flex-row inline-flex max-w-90 w-full md:w-auto my-8 md:my-14 gap-5 md:gap-11 p-5">
