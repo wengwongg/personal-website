@@ -28,3 +28,18 @@ img {
 .dark hr {
   border-color: white;
 }
+
+h3 {
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+p,
+ol {
+  margin-bottom: 1rem;
+}
+
+ol {
+  list-style-type: upper-roman;
+  list-style-position: inside;
+}

@@ -1,11 +1,10 @@
 import UnderlinedLink from "../../components/UnderlinedLink";
+import Heading from "../../components/Heading";
 
 export default function NotFound() {
   return (
     <main>
-      <h2 className="rakkas text-primary text-2xl dark:text-primary-light">
-        404 SUM TING WENG WONG!
-      </h2>
+      <Heading>Couldn't find the page you're looking for.</Heading>
       <p>
         Go back to <UnderlinedLink href="/">home</UnderlinedLink>.
       </p>
