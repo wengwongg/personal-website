@@ -20,11 +20,11 @@ export default function Home() {
         </p>
         <p>
           As for exactly who I am, I don't like to give myself a label as things
-          are constantly changing in my life. But... I graduated <i>(soon)</i>{" "}
-          in Computer Science at The University of Sheffield. I love to stay
-          active - my current go-to's are football and working out at the gym.
-          Otherwise, I'm young and I love to try new things, so my interests,
-          character and even aspirations are constantly evolving.
+          are constantly changing. But... I graduated <i>(soon)</i> in Computer
+          Science at The University of Sheffield. I love to stay active - my
+          current go-to's are football and working out at the gym. Otherwise,
+          I'm young and I love to try new things, so my interests, character and
+          even aspirations are constantly evolving.
         </p>
         <p>
           If you're an employer, there is also useful information such as my
