@@ -18,7 +18,7 @@ export default function NavLink({
   return (
     <li className="text-base transition-all hover:underline inline-block text-slate-900">
       <Link
-        className={`${isMisc && "text-slate-500"}`}
+        className={`${isMisc && "text-stone-700"}`}
         href={href}
         target={newTab ? "_blank" : "_self"}
         onClick={onClick}

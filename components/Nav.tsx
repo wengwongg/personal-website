@@ -29,13 +29,13 @@ export default function Nav() {
             }
           />
 
-          <NavLink
+          {/* <NavLink
             key="leetcode"
             href="https://leetcode.com/u/wengwongg/"
             text="leetcode"
             isMisc={true}
             newTab={true}
-          />
+          /> */}
 
           <Modal
             id="download_confirmation_modal"
