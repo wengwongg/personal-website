@@ -33,17 +33,14 @@ export default function RootLayout({
       lang="en"
       className="h-full w-full !scroll-smooth"
       suppressHydrationWarning
-      date-theme="forest"
     >
       <body
         className={`min-h-screen min-w-screen flex justify-center bg-white ${outfit.className} text-slate-900`}
       >
-        <Providers>
-          <div className="flex-col md:flex-row inline-flex max-w-90 w-full md:w-auto my-8 md:my-14 gap-5 md:gap-11 p-5">
-            <Header />
-            <Content>{children}</Content>
-          </div>
-        </Providers>
+        <div className="flex-col md:flex-row inline-flex max-w-90 w-full md:w-auto my-8 md:my-14 gap-5 md:gap-11 p-5">
+          <Header />
+          <Content>{children}</Content>
+        </div>
       </body>
     </html>
   );

@@ -6,17 +6,14 @@ export default function Home() {
   return (
     <main>
       <MainTextWrapper>
-        <p>
-          Hey, my name is{" "}
-          <span className="font-bold text-slate-700 text-lg">George</span>.
-        </p>
+        <p>Hey.</p>
         <p>
           I'm a learning 21 year-old trying to find my way through life. This is
-          mainly where I blog, which doesn't have a specific niche per se. I
-          just love to write about the things that I've enjoyed, experienced or
-          learnt. This can include anything from travel experiences, book
-          reviews, mindset, fitness, and any other new things that pop up as I
-          venture through life.
+          mainly where I blog, which doesn't have a specific niche. I just love
+          to write about the things that I've enjoyed, experienced or learnt.
+          This can include anything from travel experiences, book reviews,
+          mindset, fitness, and any other new things that pop up as I venture
+          through life.
         </p>
         <p>
           As for exactly who I am, I don't like to give myself a label as things

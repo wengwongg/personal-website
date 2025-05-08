@@ -27,7 +27,8 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "lib/definitions.ts",
-    "lib/mdx/index.ts"
+    "lib/mdx/index.ts",
+    "posts/art-of-not-thinking.mdx"
   ],
   "exclude": ["node_modules"]
 }
